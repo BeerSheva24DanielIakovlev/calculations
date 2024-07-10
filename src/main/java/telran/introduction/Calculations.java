@@ -18,7 +18,7 @@ public class Calculations {
             return res;
         }
         else {
-           System.out.println("Ошибка, нельзя делить на ноль!"); 
+           //System.out.println("Ошибка, нельзя делить на ноль!"); 
            double res = op2;
             return res;
         }

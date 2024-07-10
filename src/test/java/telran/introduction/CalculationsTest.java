@@ -23,6 +23,7 @@ public class CalculationsTest {
         void divideTest() {
             assertEquals(4, divide(16,4));
             assertEquals(0, divide(16,0));
+            //assertThrowsExactly(ArithmeticException.class, () -> divide(10, 0))
         }
 
     @Test
